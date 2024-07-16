@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://dpg-cpulfj6ehbks73ek1hgg-a.render.com/go2uz_db
+    url: jdbc:postgresql://go2uz_user:CxKRD9jLGwq3CfxuCOJCRrwOm3zyEZQs@dpg-cpulfj6ehbks73ek1hgg-a/go2uz_db
     username: go2uz_user
     password: CxKRD9jLGwq3CfxuCOJCRrwOm3zyEZQs
     driver-class-name: org.postgresql.Driver
