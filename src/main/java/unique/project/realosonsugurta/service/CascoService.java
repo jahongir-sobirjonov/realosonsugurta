@@ -27,9 +27,7 @@ public class CascoService {
         Casco casco = modelMapper.map(cascoRequest, Casco.class);
         List<Company> companies = companyRepository.findByServicesContainingIgnoreCase("Casco");
 
-        for (Company company : companies) {
-            System.out.println("company.getName() = " + company.getName());
-        }
+
         casco.setCompany(companies);
         Casco savedCasco = cascoRepository.save(casco);
 
