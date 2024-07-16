@@ -1,3 +1,6 @@
+server:
+  port: 8083
+
 spring:
   datasource:
     url: jdbc:postgresql://go2uz_user:CxKRD9jLGwq3CfxuCOJCRrwOm3zyEZQs@dpg-cpulfj6ehbks73ek1hgg-a/go2uz_db
